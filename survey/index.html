@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      color: #333;
+    }
+    input[type="text"],
+    input[type="date"],
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+    select {
+      height: 35px;
+    }
+    input[type="checkbox"] {
+      margin-right: 5px;
+    }
+    input[type="submit"],
+    input[type="reset"] {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Survey Form</h1>
+  <form>
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name" required>
+
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name" required>
+
+    <label for="date_of_birth">Date of Birth:</label>
+    <input type="date" id="date_of_birth" name="date_of_birth" required>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country" required>
+      <option value="">Select a country</option>
+      <option value="afghanistan">Afghanistan</option>
+      <option value="albania">Albania</option>
+      <option value="algeria">Algeria</option>
+      <option value="andorra">Andorra</option>
+      <option value="angola">Angola</option>
+      <option value="antigua and barbuda">Antigua and Barbuda</option>
+  <option value="argentina">Argentina</option>
+  <option value="armenia">Armenia</option>
+  <option value="australia">Australia</option>
+  <option value="austria">Austria</option>
+  <option value="azerbaijan">Azerbaijan</option>
+  <option value="bahamas">Bahamas</option>
+  <option value="bahrain">Bahrain</option>
+  <option value="bangladesh">Bangladesh</option>
+  <option value="barbados">Barbados</option>
+  <option value="belarus">Belarus</option>
+  <option value="belgium">Belgium</option>
+  <option value="belize">Belize</option>
+  <option value="benin">Benin</option>
+  <option value="bhutan">Bhutan</option>
+  <option value="bolivia">Bolivia</option>
+  <option value="bosnia and herzegovina">Bosnia and Herzegovina</option>
+  <option value="botswana">Botswana</option>
+  <option value="brazil">Brazil</option>
+  <option value="brunei">Brunei</option>
+  <option value="bulgaria">Bulgaria</option>
+  <option value="burkina faso">Burkina Faso</option>
+  <option value="burundi">Burundi</option>
+  <option value="cambodia">Cambodia</option>
+  <option value="cameroon">Cameroon</option>
+  <option value="canada">Canada</option>
+  <option value="cape verde">Cape Verde</option>
+  <option value="central african republic">Central African Republic</option>
+  <option value="chad">Chad</option>
+  <option value="chile">Chile</option>
+  <option value="china">China</option>
+  <option value="colombia">Colombia</option>
+  <option value="comoros">Comoros</option>
+  <option value="congo">Congo</option>
+  <option value="costa rica">Costa Rica</option>
+  <option value="croatia">Croatia</option>
+  <option value="cuba">Cuba</option>
+  <option value="cyprus">Cyprus</option>
+  <option value="czechia">Czechia</option>
+  <option value="denmark">Denmark</option>
+  <option value="djibouti">Djibouti</option>
+  <option value="dominica">Dominica</option>
+  <option value="dominican republic">Dominican Republic</option>
+  <option value="east timor">East Timor</option>
+  <option value="ecuador">Ecuador</option>
+  <option value="egypt">Egypt</option>
+  <option value="el salvador">El Salvador</option>
+  <option value="equatorial guinea">Equatorial Guinea</option>
+  <option value="eritrea">Eritrea</option>
+  <option value="estonia">Estonia</option>
+  <option value="eswatini">Eswatini</option>
+  <option value="ethiopia">Ethiopia</option>
+  <option value="fiji">Fiji</option>
+  <option value="finland">Finland</option>
+  <option value="france">France</option>
+  <option value="gabon">Gabon</option>
+  <option value="gambia">Gambia</option>
+  <option value="georgia">Georgia</option>
+  <option value="germany">Germany</option>
+  <option value="ghana">Ghana</option>
+  <option value="greece">Greece</option>
+  <option value="grenada">Grenada</option>
+  <option value="guatemala">Guatemala</option>
+  <option value="guinea">Guinea</option>
+  <option value="guinea-bissau">Guinea-Bissau</option>
+  <option value="guyana">Guyana</option>
+  <option value="haiti">Haiti</option>
+  <option value="honduras">Honduras</option>
+  <option value="hungary">Hungary</option>
+  <option value="iceland">Iceland</option>
+  <option value="india">India</option>
+<option value="iceland">Iceland</option>
+<option value="india">India</option>
+<option value="indonesia">Indonesia</option>
+<option value="iran">Iran</option>
+<option value="iraq">Iraq</option>
+<option value="ireland">Ireland</option>
+<option value="israel">Israel</option>
+<option value="italy">Italy</option>
+<option value="ivory coast">Ivory Coast</option>
+<option value="jamaica">Jamaica</option>
+<option value="japan">Japan</option>
+<option value="jordan">Jordan</option>
+<option value="kazakhstan">Kazakhstan</option>
+<option value="kenya">Kenya</option>
+<option value="kiribati">Kiribati</option>
+<option value="kosovo">Kosovo</option>
+<option value="kuwait">Kuwait</option>
+<option value="kyrgyzstan">Kyrgyzstan</option>
+<option value="laos">Laos</option>
+<option value="latvia">Latvia</option>
+<option value="lebanon">Lebanon</option>
+<option value="lesotho">Lesotho</option>
+<option value="liberia">Liberia</option>
+<option value="libya">Libya</option>
+<option value="liechtenstein">Liechtenstein</option>
+<option value="lithuania">Lithuania</option>
+<option value="luxembourg">Luxembourg</option>
+<option value="madagascar">Madagascar</option>
+<option value="malawi">Malawi</option>
+<option value="malaysia">Malaysia</option>
+<option value="maldives">Maldives</option>
+<option value="mali">Mali</option>
+<option value="malta">Malta</option>
+<option value="marshall islands">Marshall Islands</option>
+<option value="mauritania">Mauritania</option>
+<option value="mauritius">Mauritius</option>
+<option value="mexico">Mexico</option>
+<option value="micronesia">Micronesia</option>
+<option value="moldova">Moldova</option>
+<option value="monaco">Monaco</option>
+<option value="mongolia">Mongolia</option>
+<option value="iceland">Iceland</option>
+<option value="india">India</option>
+<option value="indonesia">Indonesia</option>
+<option value="iran">Iran</option>
+<option value="iraq">Iraq</option>
+<option value="ireland">Ireland</option>
+<option value="israel">Israel</option>
+<option value="italy">Italy</option>
+<option value="ivory coast">Ivory Coast</option>
+<option value="jamaica">Jamaica</option>
+<option value="japan">Japan</option>
+<option value="jordan">Jordan</option>
+<option value="kazakhstan">Kazakhstan</option>
+<option value="kenya">Kenya</option>
+<option value="kiribati">Kiribati</option>
+<option value="kosovo">Kosovo</option>
+<option value="kuwait">Kuwait</option>
+<option value="kyrgyzstan">Kyrgyzstan</option>
+<option value="laos">Laos</option>
+<option value="latvia">Latvia</option>
+<option value="lebanon">Lebanon</option>
+<option value="lesotho">Lesotho</option>
+<option value="liberia">Liberia</option>
+<option value="libya">Libya</option>
+<option value="liechtenstein">Liechtenstein</option>
+<option value="lithuania">Lithuania</option>
+<option value="luxembourg">Luxembourg</option>
+<option value="madagascar">Madagascar</option>
+<option value="malawi">Malawi</option>
+<option value="malaysia">Malaysia</option>
+<option value="maldives">Maldives</option>
+<option value="mali">Mali</option>
+<option value="malta">Malta</option>
+<option value="marshall islands">Marshall Islands</option>
+<option value="mauritania">Mauritania</option>
+<option value="mauritius">Mauritius</option>
+<option value="mexico">Mexico</option>
+<option value="micronesia">Micronesia</option>
+<option value="moldova">Moldova</option>
+<option value="monaco">Monaco</option>
+<option value="mongolia">Mongolia</option>
+<option value="zimbabwe">Zimbabwe</option>
+</select>
+<label class="checkbox-label">Is this your first time to fill out the survey form?</label>
+<input type="checkbox" id="first_time_yes" name="first_time" value="yes">
+<label for="first_time_yes">Yes</label>
+<input type="checkbox" id="first_time_no" name="first_time" value="no">
+<label for="first_time_no">No</label>
+
+<label class="checkbox-label">Would you suggest this to your friends and colleagues?</label>
+<input type="checkbox" id="recommendation_yes" name="recommendation" value="yes">
+<label for="recommendation_yes">Yes</label>
+<input type="checkbox" id="recommendation_no" name="recommendation" value="no">
+<label for="recommendation_no">No</label>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
+
+
+
+
+
+
